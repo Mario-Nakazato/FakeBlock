@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FakeBlock</string>
+    <string name="required">Required</string>
 </resources>
