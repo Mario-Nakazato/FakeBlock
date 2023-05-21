@@ -31,10 +31,8 @@ import com.nak.fakeblock.models.User;
 
 public class MainActivity extends AppCompatActivity {
     public static final String MESSAGES_CHILD = "chat";
-
     private DatabaseReference mFirebaseDatabaseReference;
     private FirebaseRecyclerAdapter<Message, MessageViewHolder> mFirebaseAdapter;
-
     private Button mSendButton;
     private RecyclerView mMessageRecyclerView;
     private LinearLayoutManager mLinearLayoutManager;
